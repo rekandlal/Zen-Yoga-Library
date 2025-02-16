@@ -3,7 +3,8 @@ const poseData = {
     name: "Mountain Pose (Tadasana)",
     sanskrit: "Tadasana",
     difficulty: "beginner",
-    image: "https://images.unsplash.com/photo-1566053166052-0e4a0309c0da",
+    image:
+      "https://cdn.yogajournal.com/wp-content/uploads/2021/10/YJ_Mountain-Pose_Andrew-Clark_2400x1350.png?crop=16:9&width=1500",
     description:
       "A standing pose that promotes good posture and body awareness.",
     benefits: ["Improves posture", "Strengthens thighs", "Steadies breathing"],
@@ -28,7 +29,7 @@ const poseData = {
     name: "Warrior I (Virabhadrasana I)",
     sanskrit: "Virabhadrasana I",
     difficulty: "intermediate",
-    image: "https://images.unsplash.com/photo-1599447421416-3414500d18a5",
+    image: "https://yog4lyf.com/wp-content/uploads/2022/06/50988754_m-1.jpg",
     description:
       "A standing pose that stretches and strengthens the whole body.",
     benefits: ["Strengthens legs", "Opens hips", "Improves balance"],
@@ -53,7 +54,8 @@ const poseData = {
     name: "Warrior II (Virabhadrasana II)",
     sanskrit: "Virabhadrasana II",
     difficulty: "intermediate",
-    image: "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b",
+    image:
+      "https://yogaselection.com/wp-content/uploads/2023/07/virabhadrasana-2.png",
     description: "A powerful standing pose that builds strength and stamina.",
     benefits: [
       "Strengthens legs and core",
@@ -81,7 +83,8 @@ const poseData = {
     name: "Tree Pose (Vrksasana)",
     sanskrit: "Vrksasana",
     difficulty: "beginner",
-    image: "https://images.unsplash.com/photo-1516567727245-ad8c68f3ec93",
+    image:
+      "https://cdn.yogajournal.com/wp-content/uploads/2022/01/Tree-Pose_Alt-1_2400x1350_Andrew-Clark.jpeg",
     description: "A balancing pose that improves focus and stability.",
     benefits: ["Improves balance", "Strengthens legs", "Increases focus"],
     overview:
@@ -106,7 +109,8 @@ const poseData = {
     name: "Cobra Pose (Bhujangasana)",
     sanskrit: "Bhujangasana",
     difficulty: "intermediate",
-    image: "https://images.unsplash.com/photo-1588286840104-8957b019727f",
+    image:
+      "https://atmanirvana.com/wp-content/uploads/2023/06/Cobra-Pose-Bhujangasana-Strengthen-and-Flex-Your-Spine.jpg",
     description:
       "A back-bending pose that opens the chest and strengthens the spine.",
     benefits: ["Strengthens spine", "Opens chest", "Improves posture"],
@@ -131,7 +135,8 @@ const poseData = {
     name: "Child's Pose (Balasana)",
     sanskrit: "Balasana",
     difficulty: "beginner",
-    image: "https://images.unsplash.com/photo-1552286450-4a669f880062",
+    image:
+      "https://www.gaia.com/wp-content/uploads/article-migration-image-1920x1080_Childspose-768x432.jpg",
     description:
       "A restful pose that gently stretches the back and promotes relaxation.",
     benefits: [
