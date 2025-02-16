@@ -223,7 +223,8 @@ const poseData = {
     name: "Headstand (Sirsasana)",
     sanskrit: "Sirsasana",
     difficulty: "advanced",
-    image: "https://images.unsplash.com/photo-1510914828947-36f754990aa5",
+    image:
+      "https://cdn.prod.website-files.com/67691f03eb5bfa3289b3dae7/67691f03eb5bfa3289b3e8b0_847777-shirshasana.jpeg",
     description:
       "An advanced inversion that requires strength, balance, and concentration.",
     benefits: [
@@ -253,7 +254,8 @@ const poseData = {
     name: "Peacock Pose (Mayurasana)",
     sanskrit: "Mayurasana",
     difficulty: "advanced",
-    image: "https://images.unsplash.com/photo-1566496219551-9d135d324144",
+    image:
+      "https://cdn.yogajournal.com/wp-content/uploads/2007/10/mc_202_05small-credit-mayurasana.jpg",
     description:
       "A challenging arm balance that requires significant core and upper body strength.",
     benefits: [
