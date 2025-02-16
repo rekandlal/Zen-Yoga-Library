@@ -1,0 +1,84 @@
+:root {
+    --zen-bg: rgba(33, 37, 41, 0.95);
+  }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background-image: url('https://images.unsplash.com/photo-1474557157379-8aa74a6ef541');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  
+  .content-wrapper {
+    background-color: var(--zen-bg);
+    min-height: 100vh;
+  }
+  
+  .pose-card {
+    transition: transform 0.3s ease;
+  }
+  
+  .pose-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .pose-image {
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .difficulty-badge.beginner {
+    background-color: var(--bs-success);
+  }
+  
+  .difficulty-badge.intermediate {
+    background-color: var(--bs-warning);
+  }
+  
+  .difficulty-badge.advanced {
+    background-color: var(--bs-danger);
+  }
+  
+  .hero-section {
+    background-image: url('https://images.unsplash.com/photo-1471086569966-db3eebc25a59');
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+    position: relative;
+  }
+  
+  .hero-overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  
+  .search-container {
+    background-color: var(--zen-bg);
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .category-title {
+    color: var(--bs-light);
+    font-weight: 600;
+    position: relative;
+    padding-bottom: 0.5rem;
+  }
+  
+  .category-title::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    height: 3px;
+    background-color: var(--bs-primary);
+    border-radius: 3px;
+  }
