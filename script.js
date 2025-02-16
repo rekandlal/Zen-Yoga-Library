@@ -33,7 +33,8 @@ document.addEventListener("DOMContentLoaded", function () {
       const visiblePoses = nextRow.querySelectorAll(
         '.col-12[style="display: block"]'
       );
-      title.style.display = visiblePoses.length > 0 ? "block" : "none";
+      title.style.display =
+        visiblePoses.length > 0 || !selectedDifficulty ? "block" : "none";
     });
   }
 
