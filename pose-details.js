@@ -105,6 +105,36 @@ const poseData = {
       "Use a wall for support if necessary",
     ],
   },
+  "dancer-pose": {
+    name: "Dancer Pose (Natarajasana)",
+    sanskrit: "Natarajasana",
+    difficulty: "advanced",
+    image:
+      "https://cdn2.stylecraze.com/wp-content/uploads/2013/08/Advanced-Pose-Alteration.jpg.webp",
+    description:
+      "An elegant balancing pose that opens the heart and improves flexibility.",
+    benefits: [
+      "Improves balance and focus",
+      "Opens chest and shoulders",
+      "Strengthens legs and core",
+    ],
+    overview:
+      "Dancer Pose is an elegant balancing pose that opens the heart and improves flexibility. It requires strength, balance, and concentration.",
+    steps: [
+      "Stand in Mountain Pose",
+      "Shift your weight onto your left foot",
+      "Bend your right knee and grab your right ankle with your right hand",
+      "Lift your right leg behind you while extending your left arm forward",
+      "Keep your chest lifted and gaze forward",
+      "Hold for 5-10 breaths",
+      "Repeat on the other side",
+    ],
+    tips: [
+      "Keep your standing leg strong and straight",
+      "Engage your core for stability",
+      "Focus on a fixed point to maintain balance",
+    ],
+  },
   "cobra-pose": {
     name: "Cobra Pose (Bhujangasana)",
     sanskrit: "Bhujangasana",
@@ -158,6 +188,35 @@ const poseData = {
       "Keep your arms active",
       "Breathe into your back",
       "Use a blanket under knees if needed",
+    ],
+  },
+  "lotus-pose": {
+    name: "Lotus Pose (Padmasana)",
+    sanskrit: "Padmasana",
+    difficulty: "advanced",
+    image:
+      "https://cdn.prod.website-files.com/67691f03eb5bfa3289b3dae7/67691f03eb5bfa3289b3e895_padmasana.JPG",
+    description:
+      "An advanced seated pose for meditation and breathing exercises.",
+    benefits: [
+      "Deepens meditation",
+      "Improves hip flexibility",
+      "Calms nervous system",
+    ],
+    overview:
+      "Lotus Pose is a classic seated posture that promotes deep meditation and breathing. It requires significant hip flexibility and helps calm the nervous system.",
+    steps: [
+      "Sit on the floor with legs extended",
+      "Bend your right knee and place your right foot on your left thigh",
+      "Bend your left knee and place your left foot on your right thigh",
+      "Rest your hands on your knees with palms facing up",
+      "Lengthen your spine and relax your shoulders",
+      "Hold for 1-5 minutes, focusing on your breath",
+    ],
+    tips: [
+      "Warm up your hips before attempting this pose",
+      "Use a cushion under your hips for support",
+      "Do not force your knees into position",
     ],
   },
   headstand: {
