@@ -1,8 +1,8 @@
-:root {
+:root { /** isme hum ne ek  variable  hai name zen-bag = usko color asssign kiya hai or iska bar bar use ho raha isliye aab hum bus variable ka use karenge **/
     --zen-bg: rgba(33, 37, 41, 0.95);
   }
   
-  body {
+  body { /** background lotus image or image ka position manage kiya hai  **/
     font-family: 'Inter', sans-serif;
     background-image: url('https://images.unsplash.com/photo-1474557157379-8aa74a6ef541');
     background-size: cover;
@@ -10,38 +10,38 @@
     background-position: center;
   }
   
-  .content-wrapper {
+  .content-wrapper { /** home page ke below wale ko black color kiya hai , home se thoda jada dark hai **/
     background-color: var(--zen-bg);
     min-height: 100vh;
   }
   
-  .pose-card {
+  .pose-card { /** each card ko hover transform use kiya hai or usko time delay 0.3 hai **/
     transition: transform 0.3s ease;
   }
   
-  .pose-card:hover {
+  .pose-card:hover { /** jo transform ho raha hai wo vertical upar or niche ho raha hai **/
     transform: translateY(-5px);
   }
   
-  .pose-image {
+  .pose-image { /** ye card ke yoga person image ko manage kar raha hai **/
     height: 200px;
     object-fit: cover;
     border-radius: 8px;
   }
   
-  .difficulty-badge.beginner {
+  .difficulty-badge.beginner { /** card me jo beginner level success green color ka show karenge **/
     background-color: var(--bs-success);
   }
   
-  .difficulty-badge.intermediate {
+  .difficulty-badge.intermediate { /** same as  **/
     background-color: var(--bs-warning);
   }
   
-  .difficulty-badge.advanced {
+  .difficulty-badge.advanced { /**  same as red color **/
     background-color: var(--bs-danger);
   }
   
-  .hero-section {
+  .hero-section { /** just home (hero-overlay) ke peche hai or pot wala image add kiya hai  **/
     background-image: url('https://images.unsplash.com/photo-1471086569966-db3eebc25a59');
     background-size: cover;
     background-position: center;
@@ -49,7 +49,7 @@
     position: relative;
   }
   
-  .hero-overlay {
+  .hero-overlay {  /** home page ke upar hai usko black kiya ki wo easly show ho title  **/ 
     background-color: rgba(0, 0, 0, 0.6);
     position: absolute;
     top: 0;
@@ -58,21 +58,21 @@
     bottom: 0;
   }
   
-  .search-container {
+  .search-container { /** styles in outer serach div , back in color  **/ 
     background-color: var(--zen-bg);
     border-radius: 8px;
     padding: 20px;
     margin-bottom: 30px;
   }
   
-  .category-title {
+  .category-title {  /** edit title **/
     color: var(--bs-light);
     font-weight: 600;
     position: relative;
     padding-bottom: 0.5rem;
   }
   
-  .category-title::after {
+  .category-title::after { /** title ko underlined edit **/
     content: '';
     position: absolute;
     bottom: 0;
